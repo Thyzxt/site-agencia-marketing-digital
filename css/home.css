@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+
+    overflow-x: hidden;
+    scroll-behavior: smooth;}
+    
+body{
+
+    font-family: 'Roboto';
+    margin: 0;
+    scroll-behavior: smooth;}
+
+.align{
+
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;}
+
+/* Menu */
+.nav-menu{
+
+    height: 100px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;}
+
+.logo{
+
+    font-size: 34px;
+    color: #180f4A;
+    font-family: 'Lobster', cursive;
+    flex: 30%;
+    margin-left: 10%;}
+
+.div-menu{
+
+    text-align: right;
+    flex: 60%;
+    padding: 20px;}
+
+.div-menu a{
+
+    font-size: 16px;
+    padding: 20px 16px;
+    color: #180f4A;
+    text-decoration: none;}
+
+.div-menu a:hover{
+
+    color: #FF2978;
+    border-top: 2px solid #180f4A;}
+
+#menu-btn{
+
+    margin-left: 5%;
+    margin-right: 10%;
+    color: white;
+    background-color: #180f4A;
+    border-radius: 5px;
+    padding: 10px 25px;}
+
+#menu-btn:hover{
+
+    border: none;
+    background-color: #FF2978;}
+
+/* Header */
+.header{
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.header-content{
+
+    flex: 40%;
+    margin-left: 10%;}
+
+.header-content h3{
+
+    color: #180f4A;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-size: 20px;}
+
+.header-content h2{
+
+    color: #180f4A;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;}
+
+.header-content p{
+
+    font-size: 20px;}
+
+.header-btn{
+
+    display: inline-block;
+    background-color: #FF2978;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;}
+
+.header-btn:hover{
+
+    background-color: #180f4A;}
+
+.header-img{
+
+    margin-top: 5px;
+    flex: 50%;
+    text-align: center;}
+
+.header-img img{
+
+    height: 600px;
+    width: 90%;}
+
+/* Seção Serviços */
+.main{
+    
+    padding: 5%;
+    margin-bottom: 60px;
+    text-align: center;}
+
+.main h2{
+
+    width: 100%;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #180f4A;
+    margin: 0;}
+
+.section-cards{
+
+   margin-top: 1%;
+   justify-content: center;
+   display: flex;}
+
+.cards{
+
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    width: 300px;
+    margin: 1%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #180f4A;}
+
+.cards:hover{
+
+    z-index: 5;
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
+
+.cards h3{
+
+    font-size: 16px;}
+
+/* Seção Marketing e Brand */
+.marketing-brand{
+
+    display: flex;}
+
+.marketing-brand-content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+    width: 553px;
+    text-align: center;}
+
+.marketing-brand-content img{
+
+    width: 100px;
+    height: 100px;}
+
+.marketing-brand-content h2{
+
+    color: #FF2978;
+    font-size: 40px;}
+
+.marketing-brand-content p{
+
+    margin-top: 0;
+    width: 420px;}
+
+.marketing-brand-img{
+
+    width: 555px;
+    height: 560px;}
+
+.marketing-brand-img img{
+
+    height: 100%;
+    border-radius: 1%;
+    width: 100%;
+    margin-bottom: 60px;}
+
+/* Seção CTA */
+.section-cta{
+
+    background-image:linear-gradient(180deg, #090422, #333333);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.cta-content{
+
+    margin-right: 72px;}
+
+.cta-content h2{
+
+    width: 350px;
+    color: white;
+    padding: 0;
+    font-size: 55px;
+    margin: 0;}
+
+.cta-content p{
+
+    color: white;
+    width: 350px;
+    font-size: 28px;}
+
+.cta-btn{
+
+    background-color: black;
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;}
+
+.cta-img{
+
+    margin-left: 72px;
+    height: 485px;
+    text-align: center;}
+
+.cta-img img{
+
+    height: 380px;
+    margin-bottom: 60px;}
+
+/* Rodapé */
+.footer{
+
+    height: 180px;
+    background-image:linear-gradient(180deg, #180f4A, #090422,black);
+    display: flex;}
+
+.footer-logo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 30%;
+    text-align: center;}
+
+.copyright{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 50%;
+    text-align: center;
+    color: white;}
+
+.copyright a{
+
+    text-decoration: none;
+    margin-right: 70px;
+    color: white;
+    font-size: 15px;}
+
+.copyright a:hover{
+
+    color: white;}
+
+.copyright p{
+
+    font-size: 15px;}
+
+.footer-menu{
+ 
+    width: 350px;}
+
+.footer-menu a{
+
+    margin: 2%;
+    color: grey;}
+
