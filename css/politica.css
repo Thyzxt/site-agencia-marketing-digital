@@ -1,0 +1,87 @@
+/* Imagem de Fundo */
+.background-img{
+
+    color: white; 
+    letter-spacing: 1px; 
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 575px;}
+
+.background-img h1{
+
+    margin-bottom: 0;
+    font-size: 28px;}
+
+.background-img p{
+
+    margin-top: 0;
+    font-size: 15px;}
+
+.background-line{
+
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 367px;
+    height: 1px;
+    margin: 10px;}
+
+/* Conteúdo de Política de Privacidade */
+.policy-content{
+
+    color: rgb(97, 97, 97);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;}
+
+.policy-content h2{
+
+    font-weight: 300;
+    font-size: 32px;}
+
+.policy-content p{
+
+    font-weight: 300;
+    font-size: 21px;}
+
+.policy-content ul{
+
+    font-weight: 300;
+    font-size: 21px;}
+
+.policy-content ol{
+
+    font-weight: 300;
+    font-size: 21px;}
+
+.line{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 1000px;
+    background-color: rgba(139, 139, 139, 0.445);}
+
+.policy-list{
+
+    color: rgb(97, 97, 97);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;}
+
+.policy-list h3{
+
+    color: rgb(37, 37, 37);
+    font-weight: bolder;
+    font-size: 21px;}
+
+.policy-list ul{
+
+    font-weight: 300;
+    font-size: 21px;}
